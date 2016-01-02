@@ -1,66 +1,14 @@
 body{
+    color: white;
     font-family: "Roboto", Arial, sans-serif;
     font-size: 16px;
     background-color: black;
     overflow-x: hidden;
 }
 
-body .image-box{
-    float: left;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-}
-
-body .image-box img{
-    width: 100%;
-    height: 100%;
-}
-
-body .image-box .capture{
-    width: 100%;
-    height: 100px;
-    padding: 10px;
-    position: relative;
-    bottom: 0px;
-    font-size: 13px;
-    line-height: 15px;
-    color: #D1D1D1;
-    background-color: rgba(0, 0, 0, 0.6);
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-transition: all .55s ease-in;
-    transition: all .55s  ease-in;
-}
-
-body .image-box:hover .capture{
-    bottom: 100px;
-    -webkit-transition: all .35s ease-out;
-    transition: all .35s  ease-out;
-}
-
-body .image-box .capture .name{
-    font-size: 15px;
-    line-height: 18px;
-    color: white;
-}
-
-body .add-new{
-    background: url('../img/plusone.png') no-repeat;
-    background-position: 0 -200px;
-    -webkit-transition: background-position .35s;
-    transition: background-position .35s;
-}
-
-body .add-new:hover{
-    background-position: 0 0;
-}
-
-body .add-new a{
-    display: block;
-    width: 100%;
-    height: 100%;
+a{
+    text-decoration: none;
+    color: #DB3030;
 }
 
 footer{
@@ -75,6 +23,7 @@ footer{
 footer .copyright{
     float: left;
     margin: 0 15px;
+    font-size: 12px;
     line-height: 50px;
     color: gray;
 }

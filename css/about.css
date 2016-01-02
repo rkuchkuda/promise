@@ -1,0 +1,23 @@
+body .about-container{
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+body .about-container .promise-img{
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-right: 15px;
+}
+
+body .about-container .text-container{
+    padding-top: 126px;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+body .about-container .text-container p{
+    margin-bottom: 10px;
+}
