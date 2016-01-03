@@ -52,3 +52,15 @@ footer .menu li a{
     color: inherit;
     text-decoration: none;
 }
+
+footer .logo{
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+    float: right;
+    text-decoration: none;
+    content: '';
+    background: url('../img/logo.png') no-repeat;
+    background-size: 43px 50px;
+}
